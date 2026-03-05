@@ -1,36 +1,170 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🛍️ Next-Store
 
-## Getting Started
+A modern **e-commerce demo store** built with **Next.js** that demonstrates product browsing, cart management, and scalable frontend architecture.
 
-First, run the development server:
+The project focuses on **clean UI structure, global state management, and responsive design**.
+
+---
+
+# 🚀 Live Demo
+
+Coming soon
+
+---
+
+# ⚙️ Tech Stack
+
+Frontend
+
+* Next.js
+* React
+* JavaScript
+* CSS
+
+## State Management
+
+- React Context API — global cart state management for the shopping cart (shared between product pages and cart page)
+
+**Backend / Other**
+
+* Next.js API Routes (serverless backend)
+* REST API endpoints
+* Stripe integration for checkout
+* React Portal
+* Responsive Grid Layout
+
+---
+
+# ✨ Features
+
+### Storefront
+
+* Product catalog
+* Planner highlight section
+* Sticker catalog
+* Responsive layout
+
+### Shopping Cart
+
+* Add products to cart
+* Update quantity
+* Remove items
+* Cart summary
+
+### Image Viewer
+
+* Click image to zoom
+* Portal overlay viewer
+* Background underlay
+
+### Contact
+
+* Email subscription form
+* Contact submission handler
+* Error handling
+
+---
+
+# 🧠 Architecture Highlights
+
+This project demonstrates several important frontend patterns:
+
+* **Global state management using React Context API**
+* Avoids prop drilling by using global context for cart state
+* **React Portals** for modal / image overlay rendering
+* **Component-based architecture**
+* **Responsive CSS grid layouts**
+* **Progressive UI loading patterns**
+
+---
+
+# 🗂 React Context State Management
+
+The project uses **React Context API** to manage global cart state across the application.
+
+The cart context keeps track of:
+
+* cart items
+* product quantities
+* add/remove item actions
+
+Using React Context avoids prop drilling and allows multiple components (product cards, cart page) to access and update the same cart state.
+
+
+# 📦 Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/your-username/next-store.git
+```
+
+Navigate to the project directory
+
+```bash
+cd next-store
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Run development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open in browser
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+```
+http://localhost:3000
+```
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+# 🗺️ Roadmap
 
-## Learn More
+### Phase 1 — Store UI ✅
 
-To learn more about Next.js, take a look at the following resources:
+* Product display
+* Planner section
+* Sticker catalog
+* Responsive layout
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Phase 2 — Cart System ✅
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+* Add to cart
+* Remove items
+* Quantity updates
+* Cart summary
 
-## Deploy on Vercel
+### Phase 3 — Image Portal Viewer ✅
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+* Image zoom
+* Portal overlay
+* Background underlay
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Phase 4 — Contact System 🚧
+
+* Email input
+* Contact form UI
+* `handleSubmit` implementation
+* Backend request for email submission
+
+### Phase 5 — Admin Panel 🔜
+
+* Product management
+* Order management
+* Admin authentication
+
+---
+
+# 🔮 Future Improvements
+
+* Payment integration (Stripe)
+* User authentication
+* Order history
+* Admin dashboard
+* Skeleton loaders for product loading
