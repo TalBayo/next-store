@@ -58,7 +58,7 @@ export default function Products(props) {
               Step into a realm of fantasy and organization with our{" "}
               <strong>Medieval Dragon Month Planner</strong>! This
               high-resolution PNG asset combines the fierce elegance of dragons
-              with intricate medieval designs to create a planner that's not
+              with intricate medieval designs to create a planner that&apos;s not
               only functional but also a work of art. Whether you&apos;re
               jotting down quests, planning battles, or just scheduling your
               weekly grocery run, this planner is your ultimate companion.
