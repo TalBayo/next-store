@@ -8,7 +8,7 @@ The project focuses on **clean UI structure, global state management, and respon
 
 # 🚀 Live Demo
 
-Coming soon
+https://master.d1mg5ms5ze2p1g.amplifyapp.com/
 
 ---
 
